@@ -1,0 +1,59 @@
+{% extends "Food/base.html" %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+</head>
+<body>
+    {% block body %}
+        {% for item in item_list %}
+        	<div class="row">
+                <div class="col-sm-2 offset-md-2">
+                    <img class="card" height="250px" width="200px" src="{{ item.item_image }}" alt="">
+                </div>
+                <div class="col-md-4">
+                    <h3>{{ item.item_name }}</h3>
+                    <h4>{{ item.item_description }}</h4>
+                    <h5>BDT {{ item.item_price }}/-</h5>
+                </div>
+                <div class="col-sm-1">
+                    <a href="{% url 'Food:details' item.id %}" class="btn btn-success">Details</a>
+                </div>
+            </div>
+        {% endfor %}
+    {% endblock %}
+</body>
+</html>
+
+
+
+
+{# Below is the older codes. Updated codes are mentioned above #}
+<!--
+{#{% extends "Food/base.html" %}#}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+</head>
+<body>
+{#    {% block body %}#}
+{#        {% for item in item_list %}#}
+        	<ul>
+                <li>
+{#                    <a href="{% url 'Food:details' item.id %}">{{ item.item_name }}</a>#}
+                </li>
+            </ul>
+{#        {% endfor %}#}
+{#    {% endblock %}#}
+</body>
+</html>
+-->

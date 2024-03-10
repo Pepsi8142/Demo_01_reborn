@@ -1,0 +1,29 @@
+{% extends "Food/base.html" %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+</head>
+<body>
+    {% block body %}
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 offset-2" >
+                    <img class="card" height="450px" width="350" src="{{ item.item_image }}" alt=""/>
+                </div>
+                <div class="col-md-6">
+                    <h2>{{ item.item_name }}</h2>
+                    <h3>{{ item.item_description }}</h3>
+                    <h4>BDT {{ item.item_price }}/-</h4>
+                    <a href="{% url 'Food:delete_item' item.id %}">Delete</a>
+                    <a href="https://www.bkash.com/products-services/payment" class="btn btn-danger">Order Now</a>
+                </div>
+            </div>
+        </div>
+    {% endblock %}
+</body>
+</html>

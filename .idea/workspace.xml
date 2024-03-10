@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="11651b47-26da-41df-91fe-2aa3525bca36" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Demo_01_reborn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo_01_reborn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo_01_reborn/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo_01_reborn/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo_01_reborn/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo_01_reborn/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food/migrations/0003_item_item_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Users/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Users/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Users/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Users/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Users/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Users/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Users/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Users/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Food/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Food/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Food/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Food/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Food/item-delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Food/item-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Users/register.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2d8YKBAnU3AGGS3e8JQAE9Jdhfu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.Demo_01_reborn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.views.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\image\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="5672884d-2a4c-4b83-b0e0-719640f9cf57" reportId="Demo_01_reborn/qodana/2024-03-03" />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Faisal\PycharmProjects\Demo_01_reborn\static\Food" />
+      <recent name="F:\Faisal\PycharmProjects\Demo_01_reborn" />
+      <recent name="F:\Faisal\PycharmProjects\Demo_01_reborn\Food" />
+      <recent name="F:\Faisal\PycharmProjects\Demo_01_reborn\templates\Food" />
+      <recent name="F:\Faisal\PycharmProjects\Demo_01_reborn\static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Demo_01_reborn" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Demo_01_reborn" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Demo_01_reborn.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11651b47-26da-41df-91fe-2aa3525bca36" name="Changes" comment="" />
+      <created>1709391106110</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709391106110</updated>
+      <workItem from="1709391134147" duration="36000" />
+      <workItem from="1709391196635" duration="4781000" />
+      <workItem from="1709433902705" duration="32551000" />
+      <workItem from="1709529981435" duration="1001000" />
+      <workItem from="1710061181397" duration="12244000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Demo_01_reborn$views.coverage" NAME="views Coverage Results" MODIFIED="1709480760493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Food" />
+  </component>
+</project>
