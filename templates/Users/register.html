@@ -1,3 +1,5 @@
+{% extends 'Food/base.html' %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,10 +9,32 @@
     <title>Form</title>
 </head>
 <body>
-    <form method="post">
-        {% csrf_token %}
-        {{ form }}
-        <button type="submit">Sign Up</button>
-    </form>
+    {% block body %}
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 offset-md-4">
+                    <div class="card">
+                        <div class="card-header text-white bg-info">
+                            <div class="card-title">Sign Up</div>
+                        </div>
+                        <div class="card-body">
+                            <form method="post">
+                                {% csrf_token %}
+{#                                {{ form }}#}
+                                {% for field in form %}
+                                    <div class="col-form-label-lg">
+                                	    {{ field.name }}
+                                        {{ field }}
+                                    </div>
+                                {% endfor %}
+                                <button class="bg-info" type="submit">Sign Up</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endblock %}
+    
 </body>
 </html>

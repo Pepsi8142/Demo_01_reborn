@@ -16,9 +16,10 @@
                     <img class="card" height="250px" width="200px" src="{{ item.item_image }}" alt="">
                 </div>
                 <div class="col-md-4">
-                    <h3>{{ item.item_name }}</h3>
-                    <h4>{{ item.item_description }}</h4>
-                    <h5>BDT {{ item.item_price }}/-</h5>
+                    <h3>This is "{{ item.item_name }}"</h3>
+                    <h4>It's offered with "{{ item.item_description }}"</h4>
+                    <h5>Item Price = BDT {{ item.item_price }}/-</h5>
+                    <h6>This item was added by: {{ item.user_name.first_name }} {{ item.user_name.last_name }}</h6>
                 </div>
                 <div class="col-sm-1">
                     <a href="{% url 'Food:details' item.id %}" class="btn btn-success">Details</a>

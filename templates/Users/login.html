@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Add Item Form</title>
+    <title>LogIn</title>
 </head>
 <body>
     {% block body %}
@@ -15,13 +15,19 @@
                 <div class="col-md-4 offset-md-4">
                     <div class="card">
                         <div class="card-header text-white bg-info">
-                            <div class="card-title">Add an Item</div>
+                            <div class="card-title">Log In</div>
                         </div>
                         <div class="card-body">
-                            <form  class="col-form-label-lg" method="post">
+                            <form method="POST">
                                 {% csrf_token %}
-                                {{ form }}
-                                <button class="bg-info" type="submit">Add</button>
+{#                                {{ form }}#}
+                                {% for field in form %}
+                                	<div class="col-form-label-lg">
+                                        {{ field.name }}
+                                        {{ field }}
+                                    </div>
+                                {% endfor %}
+                                <button class="bg-info" type="submit">Log In</button>
                             </form>
                         </div>
                     </div>
@@ -29,6 +35,5 @@
             </div>
         </div>
     {% endblock %}
-    
 </body>
 </html>
