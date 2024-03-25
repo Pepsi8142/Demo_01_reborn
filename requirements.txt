@@ -1,6 +1,6 @@
-Django
-mysqlclient
-pymysql
+Django                  # framework
+mysqlclient             # DB association
+pymysql                 # work with MySQL
 cryptography
-pillow
-djangorestframework
+pillow                  # work with image field
+djangorestframework     # API
